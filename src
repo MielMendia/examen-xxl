@@ -1,0 +1,10 @@
+mkdir ejemplo 
+cd ejemplo
+nano 01-RUN.sh
+#!/bin/bash
+echo "hola mundo"
+echo "el sript está ubicado en /curso2223/ejemplo"
+cntrl o (guardar)
+cntrl x (salir a la terminal)
+chmod +x 01-RUN.sh
+./01-RUN.sh
